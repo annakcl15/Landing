@@ -1,0 +1,241 @@
+body {
+	font-family: 'Staatliches', cursive;
+	font-size: 18px;
+	color: rgb(89, 9, 37);
+	background-color: white;
+	text-align: center;
+	margin:0;
+	padding:0;
+	
+}
+
+.banner {
+	width: 100%;
+	
+
+	font-weight:lighter;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/Alessio-Baldovinetti-annunciazione.jpeg);
+	background-size: cover;
+    background-position: center;
+  	padding: 35px 0px;
+  	text-align: center;
+}
+
+.banner h1 {
+	font-size: 74px;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
+.banner p {
+	font-size: 54px;
+	color: rgba(255,255,255,0.8);
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.banner a {
+	font-size: 30px;
+	color: white;
+	text-decoration:none;
+}
+
+.btn {
+	background-color: transparent;
+	box-shadow: 0 0 20px black;
+	border-style: solid;
+	border-width: 1px;
+	padding: 6px 80px;
+	border-radius: 2px; 
+}
+
+.banner a:hover {color: #E4B363;
+}
+
+h2 {
+	font-size: 30px;
+	color:#E4B363;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.container {
+	width:70%;
+	margin: auto;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0px;
+	padding-top: 40px;
+	margin-bottom: 70px;
+	justify-items: center;
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width:80%;
+  text-align: center;
+  padding-top: 30px;
+ 
+  
+}
+
+.card-white img {
+	width: 80%;
+	height: auto;
+}
+
+
+.card-white a {
+	text-decoration: none;
+}
+
+
+
+.btnCV {
+	font-size: 30px;
+	color:rgba(0,76,153,0.64);
+	text-decoration: none;
+	background-color: transparent;
+	box-shadow: 0 0 10px black;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
+	padding: 6px 80px;
+	position: center;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.btnCV a:hover { 
+	color: #E4B363;
+}
+
+.btnCV a:hover { 
+	text-align: center;
+}
+
+.card-white p {
+	color:#E4B363
+}
+
+.card-white p:hover { 
+text-decoration: underline;
+}
+
+
+.Footer {
+background-color: rgba(0,76,153,0.64);
+background-size: cover;
+width: 100%;
+position: bottom; 
+}
+
+
+.Columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+	margin: 50px 40px 0 40px;
+	padding: 30px;
+}
+
+.Column1 h3 {
+	color:#E4B363;
+	font-size: 20px;
+	
+	margin-top: 10px;
+}
+
+.Column1 p {
+	color:#E4B363;
+	font-size: 15px;
+}
+
+.Column1 a {
+	color:#E4B363;
+	font-size: 15px;
+}
+
+
+.Column2 p {
+	color:#E4B363;
+	font-size: 15px;
+}
+
+.Column2 a {
+	color:#E4B363;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.Footer h2:hover {text-decoration: underline;}
+
+.Footer a:hover {text-decoration: underline;}
+
+
+
+
+/* Cards media queries */
+
+@media (max-width:800px) {
+	.container { 
+		grid-template-columns: auto;
+	}
+  .card-white {
+    width: 100%;
+	margin-top: 30px;
+  }
+
+ 
+}
+  
+/* Container media queries */
+@media (max-width:500px) {
+  .container {
+    width: 400px;
+  }
+
+  .banner p, .banner h1{
+	margin:10px;
+  }
+
+  h2{
+	  margin-top:20px;
+  }
+
+  .Columns {
+	grid-template-columns: auto;
+
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
